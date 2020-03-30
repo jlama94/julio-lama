@@ -18,6 +18,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MainToolBarComponent } from './main-tool-bar/main-tool-bar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
