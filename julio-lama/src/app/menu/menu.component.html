@@ -1,0 +1,31 @@
+<app-main-tool-bar></app-main-tool-bar>
+
+<mat-grid-list cols="2" rowHeight="50%">
+  <mat-grid-tile colspan="1">
+    <h1>
+      <a routerLink="about-me">About Me</a>
+    </h1>
+  </mat-grid-tile>
+
+  <mat-grid-tile colspan="1">
+    <h1>
+      <a routerLink="resume">Resume</a>
+    </h1>
+  </mat-grid-tile>
+
+  <mat-grid-tile colspan="1">
+    <a routerLink="projects">
+      <h1>Projects</h1>
+    </a>
+  </mat-grid-tile>
+
+  <mat-grid-tile colspan="1">
+    <a routerLink="contact-me">
+      <h1>Contact</h1>
+    </a>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+<router-outlet></router-outlet>
+
