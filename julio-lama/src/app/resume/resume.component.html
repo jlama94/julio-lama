@@ -1,1 +1,19 @@
 <app-main-tool-bar></app-main-tool-bar>
+
+<div id="resumeDownloadDiv">
+  <a mat-stroked-button color="accent" [href]="resumeDocumentPath"> Download</a>
+</div>
+<div fxLayoutAlign="center" id="resumeDoc">
+  <mat-card>
+    <mat-card-content>
+      <pdf-viewer [src]="resumeDocumentPath"
+                  render-text="true"
+                  style="display: block"
+                  fit-to-page="true"
+                  original-size="false"
+                  autoresize="true"
+      show-borders="true">
+      </pdf-viewer>
+    </mat-card-content>
+  </mat-card>
+</div>
