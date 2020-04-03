@@ -10,10 +10,10 @@ export class MenuComponent implements OnInit {
 
   hideRoute = true;
 
-  constructor(private router: Router) { }
+
+  constructor() { }
 
   ngOnInit() {
-
   }
 
 }

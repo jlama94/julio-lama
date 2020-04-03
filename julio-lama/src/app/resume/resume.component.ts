@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
 
+  resumeDocumentPath = '/assets/documents/Resume.pdf';
   constructor() { }
 
   ngOnInit() {
