@@ -10,6 +10,7 @@ export class GitHubService {
   constructor(private http: HttpClient) { }
 
   getRepositories() {
-    return this.http.get<Repository[]>('http://juliolamawebsite-env.eba-tzc2hv5p.us-east-2.elasticbeanstalk.com/repositories');
+    // return this.http.get<Repository[]>('http://juliolamawebsite-env.eba-tzc2hv5p.us-east-2.elasticbeanstalk.com/repositories');
+    return this.http.get<Repository[]>('https://shielded-brook-92904.herokuapp.com/repositories')
   }
 }
