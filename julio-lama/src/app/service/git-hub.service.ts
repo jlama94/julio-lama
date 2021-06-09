@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Repository} from '../model/repository';
 
@@ -7,9 +7,10 @@ import {Repository} from '../model/repository';
 })
 export class GitHubService {
 
-  constructor(private http: HttpClient) { }
+  constructor (private http: HttpClient) {
+  }
 
-  getRepositories() {
-    return this.http.get<Repository[]>('http://juliolamawebsite-env.eba-tzc2hv5p.us-east-2.elasticbeanstalk.com/repositories');
+  getRepositories () {
+    return this.http.get<Repository[]>('http://juliolamabackend-env.eba-bmjbcat8.us-east-2.elasticbeanstalk.com/repositories');
   }
 }

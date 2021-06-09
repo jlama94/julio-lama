@@ -28,7 +28,8 @@ import { ResumeComponent } from './resume/resume.component';
 import { PdfViewerModule} from 'ng2-pdf-viewer';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {GitHubService} from './service/git-hub.service';
-import {GitHubResolverService} from './resolver/git-hub-resolver.service'; // PDF tool
+import {GitHubResolverService} from './resolver/git-hub-resolver.service';
+import { FooterComponent } from './footer/footer.component'; // PDF tool
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import {GitHubResolverService} from './resolver/git-hub-resolver.service'; // PD
     AboutMeComponent,
     MainToolBarComponent,
     ProjectsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

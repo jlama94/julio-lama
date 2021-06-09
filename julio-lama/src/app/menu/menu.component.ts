@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {NavigationStart, Router} from '@angular/router';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -11,7 +11,7 @@ export class MenuComponent implements OnInit {
   hideRoute = true;
 
 
-  constructor() { }
+  constructor(public route: Router) { }
 
   ngOnInit() {
   }
