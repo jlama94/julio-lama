@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
 
-  resumeDocumentPath = '/assets/documents/Resume.pdf';
+  // resumeDocumentPath = '/assets/documents/Resume.pdf';
+  resumeDocumentPath = '/julio-lama/assets/documents/Resume.pdf';
   constructor() { }
 
   ngOnInit() {

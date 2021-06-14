@@ -11,6 +11,6 @@ export class GitHubService {
   }
 
   getRepositories () {
-    return this.http.get<Repository[]>('http://juliolamabackend-env.eba-bmjbcat8.us-east-2.elasticbeanstalk.com/repositories');
+    return this.http.get<Repository[]>('https://juliolamabackend-env.eba-bmjbcat8.us-east-2.elasticbeanstalk.com/repositories');
   }
 }
