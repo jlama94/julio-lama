@@ -30,7 +30,7 @@ export class ProjectsComponent implements OnInit {
     {
       name: 'Chicago Planner',
       description: 'An iOS application with popular places to visit while in Chicago',
-      url: '',
+      url: 'https://github.com/jlama94/MyChicagoPlanner',
       technologies: ['Swift',' Xcode']
     },
     {
