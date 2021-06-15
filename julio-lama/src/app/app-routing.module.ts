@@ -21,11 +21,14 @@ const routes: Routes = [
         path: 'contact-me', component: ContactMeComponent
       },
       {
-        path: 'projects', component: ProjectsComponent,
-        resolve: {
-          githubData: GitHubResolverService
-        }
+        path: 'projects', component: ProjectsComponent
       }
+      // {
+      //   path: 'projects', component: ProjectsComponent,
+      //   resolve: {
+      //     githubData: GitHubResolverService
+      //   }
+      // }
     ]
   },
   {
