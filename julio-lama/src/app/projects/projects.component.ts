@@ -17,7 +17,7 @@ export class ProjectsComponent implements OnInit {
     {
       name: 'julio-lama.com',
       description: 'Develop Single Page Applications (SPAs) using the Angular Framework',
-      url: '`<a href="https://www.julio-lama.com">julio-lama.com</a>`',
+      url: 'https://julio-lama.com',
       technologies: ['Angular', ' Angular Material']
     },
     {
